@@ -19,7 +19,7 @@ pygmentsCodefencesGuessSyntax = true
   mainSections = ["post","posts"]
   logo = "img/fish.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "March 18, 2020"
+  dateFormat = "January 2, 2006"
   commit = false
   rss = true
   comments = true
@@ -61,6 +61,7 @@ pygmentsCodefencesGuessSyntax = true
     name = "About"
     url = "page/about/"
     weight = 3
+
 
 [[menu.main]]
     name = "Tags"
