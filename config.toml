@@ -1,7 +1,7 @@
 baseurl = "https://carlhejiayu.github.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Tech Hogwarts School"
+title = "He's Tech"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -14,21 +14,23 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+# homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Golang & Kubernete &Computer Security & Clean Code & Machine Learning Dicussion"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
+  logo = "img/fish.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
+  dateFormat = "March 18, 2020"
   commit = false
   rss = true
   comments = true
   readingTime = true
   wordCount = true
   useHLJS = true
-  socialShare = true
+  socialShare = false
   delayDisqus = true
   showRelatedPosts = true
+  github = "carlhejiayu"
+  linkedin = "carl-jiayu-he-415a2988"
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
@@ -45,34 +47,10 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  facebook = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  vk = "username"
-  paypal = "username"
-  telegram = "username"
-  500px = "username"
-  codepen = "username"
-  mastodon = "url"
-  kaggle = "username"
-  weibo = "username"
-  slack = "username"
+  name = "Jiayu Carl He"
+  email = "carlhejiayu@gmail.com"
+  github = "carlhejiayu"
+  linkedin = "carl-jiayu-he-415a2988"
 
 [[menu.main]]
     name = "Blog"
@@ -82,29 +60,6 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     name = "About"
     url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
     weight = 3
 
 [[menu.main]]
